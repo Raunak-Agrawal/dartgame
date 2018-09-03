@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="dart.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+    </head>
+    <body>
+        <div class="flex-container" >
+            <div class=" flex-container circle1" id="1" >
+                    <div class=" flex-container circle2" id="2">
+                            <div class=" flex-container circle3" id="3">
+                                    <div class=" flex-container circle4" id="4">
+                                            <div class="circle5" id="5">
+                                                
+                                                </div>
+                                        </div>
+
+                                </div>
+
+                        </div>
+            </div>
+        </div>
+       <script>
+           document.getElementById('1').onclick=function(event){
+            event.stopPropagation();
+            swal("You scored 10 points");
+           };
+           document.getElementById('2').onclick=function(event){
+            event.stopPropagation();
+            swal("You scored 20 points");
+           };
+           document.getElementById('3').onclick=function(event){
+            event.stopPropagation();
+            swal("You scored 30 points");
+           };
+           document.getElementById('4').onclick=function(event){
+            event.stopPropagation();
+            swal("You scored 40 points");
+           };
+           document.getElementById('5').onclick=function(event){
+            event.stopPropagation();
+            swal("You scored 50 points");
+           };
+             
+       </script>
+    </body>
+</html>
